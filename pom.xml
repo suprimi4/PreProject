@@ -26,7 +26,7 @@
          <dependency>
              <groupId>junit</groupId>
              <artifactId>junit</artifactId>
-             <version>4.13.1</version>
+             <version>4.12</version>
              <scope>test</scope>
          </dependency>
         <dependency>
@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>4.3.10.Final</version>
+            <version>5.6.15.Final</version>
         </dependency>
 
 

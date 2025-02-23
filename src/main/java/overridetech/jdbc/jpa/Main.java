@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         UserService service = new UserServiceImpl();
 
-        service.createUsersTable();
+
         service.saveUser("Иван", "Васильев", (byte) 32);
         service.saveUser("Никита", "Воронин", (byte) 15);
         service.saveUser("Валерий", "Афанасьев", (byte) 20);
@@ -20,6 +20,6 @@ public class Main {
             System.out.println(human.toString());
         }
         service.cleanUsersTable();
-        service.dropUsersTable();
+
     }
 }

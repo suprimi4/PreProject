@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="connection.url">jdbc:postgresql://localhost:5432/Auth</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">qwerty12356</property>
+
+
+        <property name="dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+        <property name="hbm2ddl.auto">create-drop</property>
+
+        <property name="show_sql">true</property> <!-- Show SQL in console -->
+        <property name="format_sql">true</property> <!-- Show SQL formatted -->
+        <mapping class="overridetech.jdbc.jpa.model.User"/>
+
+    </session-factory>
+</hibernate-configuration>
