@@ -1,0 +1,8 @@
+overridetech/jdbc/jpa/service/UserService.class
+overridetech/jdbc/jpa/service/UserServiceImpl.class
+overridetech/jdbc/jpa/dao/UserDao.class
+overridetech/jdbc/jpa/util/Util.class
+overridetech/jdbc/jpa/model/User.class
+overridetech/jdbc/jpa/dao/UserDaoJDBCImpl.class
+overridetech/jdbc/jpa/dao/UserDaoHibernateImpl.class
+overridetech/jdbc/jpa/Main.class
